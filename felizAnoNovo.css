@@ -28,7 +28,6 @@ body
     overflow: hidden;
 }
 
-
 #span2{
     position: relative;
     margin: 0;
@@ -47,7 +46,6 @@ body
     overflow: hidden;
 }
 
-
 #span3{
     position: relative;
     margin: 0;
@@ -65,7 +63,6 @@ body
     animation: textAnimation3 linear 3.5s infinite;
     overflow: hidden;
 }
-
 
 #span3::before {
     content: "VO";
@@ -90,7 +87,6 @@ body
   
 }
 
-
 @keyframes textAnimation2 {
     0% { 
         width: 0;
@@ -102,7 +98,6 @@ body
   
 }
 
-
 @keyframes textAnimation3 {
     0% { 
         width: 0;
@@ -113,8 +108,6 @@ body
     } 
   
 }
-
-
 
 .firework
 {
@@ -253,7 +246,6 @@ body
     background-color:red;
     animation: explosao 2s .3s ease-in-out infinite;
 }
-
 
 #firework5
 {
