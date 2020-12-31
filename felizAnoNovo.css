@@ -19,6 +19,7 @@ body
 #span1::after {
     content: "FELIZ";
     color:yellow;
+    text-shadow: 0 0 4rem yellow;
     height: 100%;
     width: 0;
     position: absolute;
@@ -79,7 +80,6 @@ body
 @keyframes textAnimation1 {
     0% { 
         width: 0;
-        border-right-color: #FFFFFF;
     }
     50%,100% { 
         width: 100%;
@@ -90,7 +90,6 @@ body
 @keyframes textAnimation2 {
     0% { 
         width: 0;
-        border-right-color: #FFFFFF;
     }
     50%,100% { 
         width: 100%;
@@ -101,7 +100,6 @@ body
 @keyframes textAnimation3 {
     0% { 
         width: 0;
-        border-right-color: #FFFFFF;
     }
     50%,100% { 
         width: 50%;
