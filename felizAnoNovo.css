@@ -19,7 +19,6 @@ body
 #span1::after {
     content: "FELIZ";
     color:yellow;
-    text-shadow: 0 0 4rem yellow;
     height: 100%;
     width: 0;
     position: absolute;
@@ -257,7 +256,6 @@ body
     animation: explosao 2s .2s ease-in-out infinite;
 }
 
-
 #firework6
 {
     left: 80%;
@@ -268,4 +266,16 @@ body
 {
     background-color:#ea00ea;
     animation: explosao 2s .2s ease-in-out infinite;
+}
+
+#firework7
+{
+    left: 60%;
+    top:80%;
+    transform: scale(.8);
+}
+#firework7 .explosao::before
+{
+    background-color:#FFFFFF;
+    animation: explosao 2s .1s ease-in-out infinite;
 }
