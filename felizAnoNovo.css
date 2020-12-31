@@ -13,7 +13,7 @@ body
 #span1{
     position: relative;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 #span1::after {
@@ -31,7 +31,7 @@ body
 #span2{
     position: relative;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 #span2::after {
@@ -49,7 +49,7 @@ body
 #span3{
     position: relative;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 #span3::after {
